@@ -19,6 +19,6 @@ clean:
 	$(RM) rdsencode
 install:
 	install -m755 -d $(DESTDIR)$(PREFIX)/bin
-	install -m755 jackpifm $(DESTDIR)$(PREFIX)/bin
+	install -m755 rdsencode $(DESTDIR)$(PREFIX)/bin
 
 all: rdsencode
